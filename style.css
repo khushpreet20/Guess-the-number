@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: absolute;
+    /* border: 1px solid brown; */
+    width: 100%;
+    height: 100%;
+}
+nav{
+    /* position: relative; */
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 1;
+}
+.container{
+    top: 3rem;
+    position: relative;
+    /* top: 2rem; */
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* gap: 3rem; */
+    align-items: center;
+    background-color: rgb(86, 84, 84);
+    color: white;
+}
+.intro{
+    margin: 1rem;
+    padding: .5rem;
+    /* border: 1px solid red; */
+    /* width: 33%; */
+    text-align: center;
+}
+p{
+    margin: 0.3rem;
+    font-size: large;
+}
+.box1{
+    padding: 0.35rem;
+    /* border: 1px solid green; */
+    /* width: 30rem; */
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1 h1{
+    font-size: 4.5rem;
+    text-align: center;
+}
+.box1 input, .button{
+    text-align: center;
+    width: 15rem;
+    padding: 0.35rem;
+}
+.box1 input{
+    border: 5px solid rgb(161, 158, 158);
+}
+.button{
+    border-radius: 0.3rem;
+    width: 10rem;
+    height: 2.6rem;
+    color: white;
+    background-color: black;
+}
+.button:hover{
+    cursor: pointer;
+}
+.resBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    gap: 0.25rem;
+}
+.prvguesses{
+    background-color: rgb(164, 159, 159);
+    min-width: 0.2rem;
+}
+.guesses{
+    display: flex;
+    gap: 0.14rem;
+}
+#message{
+    color: red;
+}
